@@ -1,0 +1,61 @@
+node 
+verificar si esta instalado  : node -v
+################################################################
+pwd= print working directory / Imprimir el directorio 
+ls = List/ Listar 
+ls -l = agraga mayor utilidad al comando 
+mkdir = Make directory / Crear carpeta
+mkdir -v = trae mas información de lo que esta pasando el la creación de la carpeta 
+cd = cambiar de directorio o carpeta
+cd ..= ir atras una carpeta o directorio
+clear = limpiar terminal  
+touch = crea archivo vacio
+rm = eliminar archivo
+rm -r = elimina una carpeta o directorio
+rm -f = elimina archivo 
+help = entrega un listado de comandos basicos 
+para obtener un listado de las opciones del comando que se necesita  es : *comando* --help
+code . -> para que abra visual code  trabaje sobre el repositorio
+terminal = es la interfaz de linea de comandos (CLI) que nos permite comunicarnos con la 
+computadora atraves de los comandos simples para darle ordenes y conseguir un resultado especifico 
+
+################################################################################
+
+pasos para configurar las credenciales git ub   
+
+1. configurar el correo electrónico 
+git config --global user.email "krafcarlos@gmail.com"
+2. configurar el usario 
+git config --global  user.name"CELemusLesmes" 
+
+
+###################################################################################
+pasos para crear reposirotio desde la carpeta donde estoy 
+git bash ->limpiar 
+1 git init -> automaticamente la carpeta se convierte en nuestro nuevo repositorio local
+2 ls -a -> nos permite ver archivos y carpetas ocultas 
+3 git status -> nos permite verificar el estado de nuestro commit 
+4. git add "archivo"-> adicionara el archivo al comit 
+5. git add . -> adicionara todos los archivos al siguiete commit 
+5. git commit -m 'Algun mensaje del commit solo es para validar de ques'
+6. git log ->listará los commit existentes en nuestro repositorio 
+7. git push origin main -> sincronisar y subir nuestros comit a github
+
+comando nuevo en caso de no crear un archivo readmy utilizarlo 
+1.git branch -M main
+
+podemos  ver la lista de commit generados
+1.git log
+
+descartar los cambios que se hicierón en los archivos
+1. git restore  
+
+para traer información que se aya agregadoa nuestro proyecto en la nube por otros compañeros
+1.git pull
+
+clonar recordar que este clona lo que hemos hecho y esta en nuestra nube 
+1. git clone  
+
+#####################################################################################
+Proceso de repositorio en en el pc
+1. git clone -> clona nuestro repositorio
